@@ -13,7 +13,7 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app
 git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat package/luci-theme-opentomcat
 # SmartDNS
 git clone https://github.com/pymumu/luci-app-smartdns feeds/luci/applications/luci-app-smartdns/
-git clone https://github.com/pymumu/openwrt-smartdns feeds/packages/net/smartdns/
+git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 
 ./scripts/feeds clean
 ./scripts/feeds update -a
