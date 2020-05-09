@@ -14,6 +14,8 @@ git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat package/luci-theme-
 # SmartDNS
 git clone https://github.com/u0225/luci-app-smartdns package/luci-app-smartdns
 git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
+# package
+git clone https://github.com/kenzok8/openwrt-packages.git package/mypackages
 
 ./scripts/feeds clean
 ./scripts/feeds update -a
