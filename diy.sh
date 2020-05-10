@@ -15,7 +15,9 @@ git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat package/luci-theme-
 git clone https://github.com/u0225/luci-app-smartdns package/luci-app-smartdns
 git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 # package
-git clone https://github.com/kenzok8/openwrt-packages.git package/mypackages
+# git clone https://github.com/kenzok8/openwrt-packages.git package/mypackages
+rm -rf package/lean/luci-app-ssr-plus
+git clone https://github.com/fw876/helloworld.git package/helloworld
 
 ./scripts/feeds clean
 ./scripts/feeds update -a
